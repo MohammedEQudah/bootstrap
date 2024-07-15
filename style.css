@@ -1,0 +1,91 @@
+body
+{
+background-color: rgba(131, 203, 245, 0.908);
+}
+.Head_Container
+{
+    display: flex;
+    background-color: rgb(240, 240, 254);
+}
+
+.Head_Container a 
+{
+    margin: 10px;
+    
+    width: 15px;
+    text-align: center;
+    align-self: center;
+    padding: 40px 90px 40px 90px;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.Head_Container input
+{
+    margin-left: 40px;
+    margin-top: 47px;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+}
+.Main_Container1
+{
+    display: inline-flex;
+    justify-content: left;
+    margin: 20px;
+    background-color: rgb(240, 240, 254);
+    height: auto;
+    width: 45%;
+    flex-direction: column;
+}
+.Main_Container1 img
+{
+    padding:10px;
+    margin: auto;
+}
+.Main_Container1 .htmlDiv
+{
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    font-family: Monospace;
+}
+.Main_Container2
+{
+    display: inline-flex;
+    justify-content: right;
+    width: 45%;
+    margin: 20px;
+    background-color: rgb(240, 240, 254);
+    height: auto;
+    flex-direction: column;
+}
+.Main_Container2 img
+{
+   padding: 10px;
+    margin: auto;
+}
+.Main_Container2 .cssDiv
+{
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    font-family: Monospace;
+}
+.footer_Container
+{
+    display: flex;
+    justify-content: center;
+}
+.footer_Container a
+{
+    width: 15px;
+    text-align: center;
+    align-self: center;
+    padding: 40px 90px 40px 90px;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+

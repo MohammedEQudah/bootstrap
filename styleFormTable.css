@@ -1,0 +1,26 @@
+.container
+{
+    display:flex;
+    background-color: lightblue;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+.container .form
+{
+    background-color: red;
+    font-size: 30px;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.container .table ,th, td
+{
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 50%;
+    height: auto;
+    border-collapse:collapse ;
+}
