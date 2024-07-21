@@ -4,36 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="scriptFormTable.js" defer></script>
     <link rel="stylesheet" href="styleFormTable.css">
 </head>
 <body>
     <div class="container">
-        <div class="form">
-            <form action="" method="get">
-                <h1>Form Registraition</h1>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" ><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" ><br><br>
-                <label for="number">PhoneNumber</label>
-                <input type="number" id="number" name="number" ><br><br>
-                <input type="submit" value="Submit">
+        <div class="formDiv">
+            <form id="studentForm">
+                <legend>Student Information</legend>
+                <label for="firstName">FirstName</label><br>
+                <input type="text" id="firstName" required><br><br><br>
+                <label for="lastName">LastName</label><br>
+                <input type="text" id="lastName" required><br><br><br>
+                <label for="country">Country</label><br>
+                <input type="text" id="country" required><br><br><br>
+                <label for="phoneNumber">PhoneNumber</label><br>
+                <input type="text" id="phoneNumber"><br><br><br>
+                <input type="submit" value="Save" id="Sub">
             </form>
         </div>
-        <div class="table">
-            <table>
+        <div class="TableDiv">
+            <table id="studentTable">
                 <tr>
-                 <th>Name</th>
-                 <th>PhoneNumber</th>
-                 <th>email</th>
-                 <th>facebook link</th>
-                </tr>
-                <tr>
-                    <td><input type="text"></td>
-                    <td><input type="number"></td>
-                    <td><input type="email"></td>
-                    <td><input type="text"></td>
-
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Country</th>
+                    <th>PhoneNumber</th>
                 </tr>
             </table>
         </div>
